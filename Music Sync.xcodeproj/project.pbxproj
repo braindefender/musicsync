@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0B99DC1FA7B85B00C0C325 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0B99DB1FA7B85B00C0C325 /* Swifter.framework */; };
+		AC0B99DD1FA7B85B00C0C325 /* Swifter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC0B99DB1FA7B85B00C0C325 /* Swifter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC47010D1FA76ABD00762DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47010C1FA76ABD00762DBB /* AppDelegate.swift */; };
+		AC47010F1FA76ABD00762DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47010E1FA76ABD00762DBB /* ViewController.swift */; };
+		AC4701121FA76ABD00762DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4701101FA76ABD00762DBB /* Main.storyboard */; };
+		AC4701141FA76ABD00762DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4701131FA76ABD00762DBB /* Assets.xcassets */; };
+		AC4701171FA76ABD00762DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4701151FA76ABD00762DBB /* LaunchScreen.storyboard */; };
+		AC4701251FA7722900762DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4701241FA7722900762DBB /* AppDelegate.swift */; };
+		AC4701291FA7722A00762DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4701281FA7722A00762DBB /* Assets.xcassets */; };
+		AC47012C1FA7722A00762DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC47012A1FA7722A00762DBB /* Main.storyboard */; };
+		AC89C0761FA9B52A008857A9 /* UIButton+Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0751FA9B52A008857A9 /* UIButton+Square.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC0B99DE1FA7B85B00C0C325 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AC0B99DD1FA7B85B00C0C325 /* Swifter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC0B99DB1FA7B85B00C0C325 /* Swifter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swifter.framework; path = Carthage/Build/Mac/Swifter.framework; sourceTree = "<group>"; };
+		AC4701091FA76ABD00762DBB /* Music Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC47010C1FA76ABD00762DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC47010E1FA76ABD00762DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4701111FA76ABD00762DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4701131FA76ABD00762DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4701161FA76ABD00762DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4701181FA76ABD00762DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4701221FA7722900762DBB /* Music Sync Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Sync Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4701241FA7722900762DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4701281FA7722A00762DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC47012B1FA7722A00762DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC47012D1FA7722A00762DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4701321FA7734E00762DBB /* Music Sync Server.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Music Sync Server.entitlements"; sourceTree = "<group>"; };
+		AC4701331FA77B0500762DBB /* Music-Sync-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Music-Sync-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC89C0751FA9B52A008857A9 /* UIButton+Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Square.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4701061FA76ABD00762DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47011F1FA7722900762DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0B99DC1FA7B85B00C0C325 /* Swifter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4701001FA76ABD00762DBB = {
+			isa = PBXGroup;
+			children = (
+				AC0B99DB1FA7B85B00C0C325 /* Swifter.framework */,
+				AC47010B1FA76ABD00762DBB /* Music Sync */,
+				AC4701231FA7722900762DBB /* Music Sync Server */,
+				AC47010A1FA76ABD00762DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC47010A1FA76ABD00762DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4701091FA76ABD00762DBB /* Music Sync.app */,
+				AC4701221FA7722900762DBB /* Music Sync Server.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC47010B1FA76ABD00762DBB /* Music Sync */ = {
+			isa = PBXGroup;
+			children = (
+				AC47010C1FA76ABD00762DBB /* AppDelegate.swift */,
+				AC47010E1FA76ABD00762DBB /* ViewController.swift */,
+				AC4701101FA76ABD00762DBB /* Main.storyboard */,
+				AC89C0751FA9B52A008857A9 /* UIButton+Square.swift */,
+				AC4701131FA76ABD00762DBB /* Assets.xcassets */,
+				AC4701151FA76ABD00762DBB /* LaunchScreen.storyboard */,
+				AC4701181FA76ABD00762DBB /* Info.plist */,
+				AC4701331FA77B0500762DBB /* Music-Sync-Bridging-Header.h */,
+			);
+			path = "Music Sync";
+			sourceTree = "<group>";
+		};
+		AC4701231FA7722900762DBB /* Music Sync Server */ = {
+			isa = PBXGroup;
+			children = (
+				AC4701321FA7734E00762DBB /* Music Sync Server.entitlements */,
+				AC4701241FA7722900762DBB /* AppDelegate.swift */,
+				AC4701281FA7722A00762DBB /* Assets.xcassets */,
+				AC47012A1FA7722A00762DBB /* Main.storyboard */,
+				AC47012D1FA7722A00762DBB /* Info.plist */,
+			);
+			path = "Music Sync Server";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4701081FA76ABD00762DBB /* Music Sync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC47011B1FA76ABD00762DBB /* Build configuration list for PBXNativeTarget "Music Sync" */;
+			buildPhases = (
+				AC4701051FA76ABD00762DBB /* Sources */,
+				AC4701061FA76ABD00762DBB /* Frameworks */,
+				AC4701071FA76ABD00762DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music Sync";
+			productName = "Music Sync";
+			productReference = AC4701091FA76ABD00762DBB /* Music Sync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4701211FA7722900762DBB /* Music Sync Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4701311FA7722A00762DBB /* Build configuration list for PBXNativeTarget "Music Sync Server" */;
+			buildPhases = (
+				AC47011E1FA7722900762DBB /* Sources */,
+				AC47011F1FA7722900762DBB /* Frameworks */,
+				AC4701201FA7722900762DBB /* Resources */,
+				AC0B99DE1FA7B85B00C0C325 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music Sync Server";
+			productName = "Music Sync Server";
+			productReference = AC4701221FA7722900762DBB /* Music Sync Server.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4701011FA76ABD00762DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ink Studios";
+				TargetAttributes = {
+					AC4701081FA76ABD00762DBB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC4701211FA7722900762DBB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AC4701041FA76ABD00762DBB /* Build configuration list for PBXProject "Music Sync" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4701001FA76ABD00762DBB;
+			productRefGroup = AC47010A1FA76ABD00762DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4701081FA76ABD00762DBB /* Music Sync */,
+				AC4701211FA7722900762DBB /* Music Sync Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4701071FA76ABD00762DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4701171FA76ABD00762DBB /* LaunchScreen.storyboard in Resources */,
+				AC4701141FA76ABD00762DBB /* Assets.xcassets in Resources */,
+				AC4701121FA76ABD00762DBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4701201FA7722900762DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4701291FA7722A00762DBB /* Assets.xcassets in Resources */,
+				AC47012C1FA7722A00762DBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4701051FA76ABD00762DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC47010F1FA76ABD00762DBB /* ViewController.swift in Sources */,
+				AC47010D1FA76ABD00762DBB /* AppDelegate.swift in Sources */,
+				AC89C0761FA9B52A008857A9 /* UIButton+Square.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47011E1FA7722900762DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4701251FA7722900762DBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC4701101FA76ABD00762DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4701111FA76ABD00762DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4701151FA76ABD00762DBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4701161FA76ABD00762DBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC47012A1FA7722A00762DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC47012B1FA7722A00762DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4701191FA76ABD00762DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC47011A1FA76ABD00762DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC47011C1FA76ABD00762DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHQ4KY638D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Music Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ink.studios.Music-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC47011D1FA76ABD00762DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHQ4KY638D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Music Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ink.studios.Music-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC47012F1FA7722A00762DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Music Sync Server/Music Sync Server.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NHQ4KY638D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Music Sync Server/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "ink.studios.Music-Sync-Server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AC4701301FA7722A00762DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Music Sync Server/Music Sync Server.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NHQ4KY638D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Music Sync Server/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "ink.studios.Music-Sync-Server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4701041FA76ABD00762DBB /* Build configuration list for PBXProject "Music Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4701191FA76ABD00762DBB /* Debug */,
+				AC47011A1FA76ABD00762DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC47011B1FA76ABD00762DBB /* Build configuration list for PBXNativeTarget "Music Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC47011C1FA76ABD00762DBB /* Debug */,
+				AC47011D1FA76ABD00762DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4701311FA7722A00762DBB /* Build configuration list for PBXNativeTarget "Music Sync Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC47012F1FA7722A00762DBB /* Debug */,
+				AC4701301FA7722A00762DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4701011FA76ABD00762DBB /* Project object */;
+}

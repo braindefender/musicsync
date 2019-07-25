@@ -1,0 +1,24 @@
+{
+  "Mac" : [
+    {
+      "name" : "Swifter",
+      "hash" : "cc10893c4baed1bb65152f07b6be0a39b51e5bb5150f07dec31176fc0a36d0c9"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "Swifter",
+      "hash" : "b3b256a391d6e2bdd486ab474dcf607ec258b1d00854da22768ac23ff0607199"
+    }
+  ],
+  "commitish" : "1.3.3",
+  "iOS" : [
+    {
+      "name" : "Swifter",
+      "hash" : "d559fd55ddc062c0457d7938cce946e2d5f272337754091fe3ae8f70a4083c76"
+    }
+  ]
+}
